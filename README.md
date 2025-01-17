@@ -87,19 +87,19 @@ python app.py
 
 Ex:
 
- ![Categoria Sequential_Art](sequential_art.png)
+![Image](https://github.com/user-attachments/assets/7267e8c1-069b-405a-9a7c-f83fd5f176da)
 
 * Exibe as categorias com maior e menor quantidade de livros, adotando como critério de desempate a ordem alfabética.
 
-![Categoria_maior_menor](maior_menor.png)
+![Image](https://github.com/user-attachments/assets/64f7aa03-02fa-4ba6-8e6b-2fd33e64a451)
 
 * Exibe o livro mais caro e o mais barato
 
-![Livro_caro_barato](caro_barato.png)
+![Image](https://github.com/user-attachments/assets/fe430739-3efc-417f-b809-a3a5b711781a)
 
 * Exibe os livros com maior e menor quantidade de estrelas, também adotando como critério de desempate a ordem affabética.
 
-![Estrelas_maior_menor](estrelas.png)
+![Image](https://github.com/user-attachments/assets/70673dcd-d816-4b40-857c-e6f033cdc337)
 
 * Salva os dados coletados em um arquivo CSV.
 
