@@ -106,7 +106,8 @@ categorias_mais_livros = [cat for cat, stats in categoria_stats.items() if stats
 categorias_menos_livros = [cat for cat, stats in categoria_stats.items() if stats['numero_livros'] == min_livros]
 
 print(f"Categoria com o maior número de livros: {sorted(categorias_mais_livros)[0]} ({max_livros} livros)")
-print(f"Categoria com o menor número de livros: {sorted(categorias_menos_livros)[0]} ({min_livros} livros)")
+print(f"Categoria com o menor número de livros: {sorted(categorias_menos_livros)[0]} ({min_livros} livro)")
+print('-' * 50)
 
 # Identificar livros com maior/menor preço
 max_preco = max(livros_global, key=lambda x: x['price'])['price']
@@ -117,6 +118,7 @@ livros_mais_barato = [livro for livro in livros_global if livro['price'] == min_
 
 print(f"Livro mais caro: {sorted(livros_mais_caro, key=lambda x: x['name'])[0]['name']} ({max_preco})")
 print(f"Livro mais barato: {sorted(livros_mais_barato, key=lambda x: x['name'])[0]['name']} ({min_preco})")
+print('-' * 50)
 
 # Identificar livros com maior/menor estrelas
 max_estrelas = max(livros_global, key=lambda x: x['star_rating'])['star_rating']
@@ -127,6 +129,7 @@ livros_menos_estrelas = [livro for livro in livros_global if livro['star_rating'
 
 print(f"Livro com maior número de estrelas: {sorted(livros_mais_estrelas, key=lambda x: x['name'])[0]['name']} ({max_estrelas})")
 print(f"Livro com menor número de estrelas: {sorted(livros_menos_estrelas, key=lambda x: x['name'])[0]['name']} ({min_estrelas})")
+print('-' * 50)
 
 
 
