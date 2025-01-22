@@ -1,8 +1,8 @@
 # Projeto de Python com Scraping de Dados
 
-Este projeto tem como objetivo praticar todos os fundamentos de Python, incluindo web scraping, análise de dados e manipulação de arquivos CSV. Utilizaremos as bibliotecas beautifulsoup4 e selenium para capturar dados de livros do site "Books to Scrape".
+Este projeto tem como objetivo praticar todos os fundamentos de Python, incluindo web scraping, análise de dados e manipulação de arquivos CSV. Utilizei as bibliotecas beautifulsoup e selenium para capturar dados de livros do site "Books to Scrape".
 
-# Descrição do Projeto
+## Descrição do Projeto
 
 1. Aprendizado de Web Scraping:
     * Aprender a realizar web scraping em websites utilizando as bibliotecas beautifulsoup e selenium.
@@ -33,7 +33,7 @@ Exemplo:
 * Python - Versão: 3.12.5
 * Visual Studio Code - Versão 1.96.3
 
-# Como rodar o projeto ✅
+## Como rodar o projeto ✅
 
 Para rodar este projeto, você precisará ter o Git, Python e o VS Code instalados em sua máquina (vale salientar que utilizei o Git Bash como terminal).
 
@@ -70,12 +70,12 @@ code .
 python app.py
 ```
 
-# Estrutura do Projeto
+## Estrutura do Projeto
 * app.py: Script principal para realizar o web scraping e capturar os dados dos livros.
 * requirements.txt: Lista de bibliotecas necessárias para rodar o projeto.
 * data/: Diretório onde os arquivos CSV gerados serão salvos.
 
-# Resultados
+## Resultados
 
 * Realiza web scraping de uma categoria de livros do site "Books to Scrape".
 
@@ -103,11 +103,11 @@ Ex:
 
 * Salva os dados coletados em um arquivo CSV.
 
-# Contribuições
+## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias e correções.
 
-# Licença
+## Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](https://github.com/muller-pereira/projeto_scraping/blob/main/LICENSE) para mais detalhes.
 
